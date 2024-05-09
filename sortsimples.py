@@ -1,0 +1,5 @@
+a, b, c = map(int, input().split(' '))
+mai = max(a, b, c)
+men = min(a, b, c)
+mei = (a + b + c) - (mai + men)
+print("{}\n{}\n{}\n\n{}\n{}\n{}".format(men, mei, mai, a, b, c))
